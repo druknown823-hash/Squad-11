@@ -2,7 +2,7 @@
 import pandas as pd 
 
 # Define the filename
-filename = r"d:\FFFFF\lab\sample_data.csv"
+filename = r"37.Data Filtering and Selection .csv"
 
 try:
     # Load the data into a DataFrame
@@ -45,4 +45,5 @@ print("\n--- 4. Grouping by 'City' and calculating Average Age ---")
 city_stats = df.groupby('City')['Age'].mean() 
 
 print(city_stats)
+
 
