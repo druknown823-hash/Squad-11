@@ -1,15 +1,3 @@
-# Name,Age,Score,City
-# Alice,25,85.5,New York
-# Bob,30,92.0,London
-# Charlie,22,78.2,New York
-# David,45,60.1,Paris
-# Eve,35,95.5,London
-# Frank,28,88.9,New York
-
-
-
-
-
 # Import the Pandas library
 import pandas as pd 
 
@@ -55,4 +43,5 @@ print("\n--- 4. Grouping by 'City' and calculating Average Age ---")
 # Group the DataFrame by the 'City' column
 # Then calculate the mean (average) of the 'Age' for each city
 city_stats = df.groupby('City')['Age'].mean() 
+
 print(city_stats)
