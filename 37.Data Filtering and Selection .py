@@ -45,3 +45,4 @@ print("\n--- 4. Grouping by 'City' and calculating Average Age ---")
 city_stats = df.groupby('City')['Age'].mean() 
 
 print(city_stats)
+
